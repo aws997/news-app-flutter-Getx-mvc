@@ -1,9 +1,10 @@
+
 # Flutter News App - getx mvc
 
 <p>A simple news app done in flutter with getx state mangement and MVC design pattern </p>
 <p>Very clean reusable code easy to read and extend  </p>
 
-<img src="https://user-images.githubusercontent.com/47813262/124594354-5f31db00-de68-11eb-9fb7-1ed9c1bb417e.png" width="300" ><img src="https://user-images.githubusercontent.com/47813262/124594375-635df880-de68-11eb-83c6-cbd5edbaa543.png" width="300" >
+<img src="https://user-images.githubusercontent.com/47813262/124594354-5f31db00-de68-11eb-9fb7-1ed9c1bb417e.png" width="300" ><img src="https://user-images.githubusercontent.com/47813262/124594375-635df880-de68-11eb-83c6-cbd5edbaa543.png" width="300" ><img src="https://user-images.githubusercontent.com/47813262/124783418-b8276f00-df4d-11eb-8f28-bf8f9e94543a.png" width="300" >
 
 
 
