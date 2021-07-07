@@ -30,6 +30,7 @@ class Profile extends StatelessWidget {
       ],
     );
   }
+// ignore: non_constant_identifier_names
 Widget login_logoutButton(){
 
 return Obx(() {

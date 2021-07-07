@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:getx_mvc/models/post.dart';
 import 'package:getx_mvc/models/user.dart';
 import 'package:getx_mvc/utils/api_utils.dart';
 import 'package:getx_mvc/utils/user_storage.dart';

@@ -1,7 +1,5 @@
 
-import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:getx_mvc/models/user.dart';
 import 'package:getx_mvc/services/auth_service.dart';
 import 'package:getx_mvc/utils/user_storage.dart';
 import 'package:getx_mvc/views/screens/home.dart';

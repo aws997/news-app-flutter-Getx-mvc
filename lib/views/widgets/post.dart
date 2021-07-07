@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_mvc/controllers/post_controller.dart';
 import 'package:getx_mvc/models/post.dart';
+import 'package:getx_mvc/utils/api_utils.dart';
 
 class PostWidget extends StatelessWidget {
   
@@ -34,13 +35,13 @@ postController.openPostDetail(this.post);
             child: Row(
               children: [
                
-                // ClipRRect(
-                //   borderRadius: BorderRadius.circular(15),
-                //   child: Image.network(ApiUtils.host+'/${post.image}',
-                //   height: 130,
-                //   width: 140,
-                //   fit: BoxFit.cover,),
-                // ),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(15),
+                  child: Image.network(ApiUtils.host+'/${post.image}',
+                  height: 130,
+                  width: 140,
+                  fit: BoxFit.cover,),
+                ),
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
