@@ -76,7 +76,9 @@ void retriveuser(){
 if(value!=null)
 {
   userId.value=value['id']??'';
+  if(userId.value.isNotEmpty)
   isLoggedIn.value=true;
+  
 }
   });
 }

@@ -7,7 +7,7 @@ class AddPost extends StatelessWidget {
 final TextEditingController titleController= TextEditingController();
 final TextEditingController bodyController= TextEditingController();
 
-GlobalKey<FormState> _formkey=GlobalKey<FormState>();
+final GlobalKey<FormState> _formkey=GlobalKey<FormState>();
 
 
   @override

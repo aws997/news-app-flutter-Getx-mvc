@@ -6,10 +6,10 @@ String userModelToJson(UserModel data) => json.encode(data.toJson());
 
 class UserModel {
     UserModel({
-        this.username,
+        this.username='',
         this.email,
         this.id,
-        this.profilePic,
+        this.profilePic='',
 
         this.coverPic,
         this.followers = const [],
@@ -20,11 +20,11 @@ class UserModel {
         this.country,
     });
 
-    String? username;
+    String username;
     String? email;
         String? id;
 
-    String? profilePic;
+    String profilePic;
     String? coverPic;
     List<String> followers;
     List<String> following;

@@ -8,4 +8,6 @@ class ApiUtils{
   static String homeAPI= hostAPI + '/posts/home/all';
   static String createPostAPI= hostAPI + '/posts';
   static String likePost= hostAPI + '/posts/like';
+
+  static String getUser= hostAPI + '/users';
 }

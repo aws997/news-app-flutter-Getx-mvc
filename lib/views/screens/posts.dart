@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_mvc/controllers/auth_controller.dart';
 import 'package:getx_mvc/controllers/post_controller.dart';
-import 'package:getx_mvc/models/post.dart';
 import 'package:getx_mvc/views/widgets/post.dart';
 
 class PostsScreen extends StatelessWidget {
